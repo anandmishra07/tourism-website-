@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px 0;
+  border-top: 2px solid white; 
+}
+
+.nav_links li {
+  margin-right: 20px;
+  position: relative; 
+}
+
+.nav_links li:last-child {
+  margin-right: 0;
+}
+
+.nav_links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s;
+  padding-bottom: 10px; 
+}
+
+.nav_links li a:hover {
+  color: #ff9900;
+}
+
+section {
+  padding: 40px;
+}
+
+.about-us{
+  margin-top: 40px;
+}
+
+.about-content, .mission-content, .explore-content,
+.why-visit-content, .team-content, .contact-content,
+.terms-content, .feedback-content {
+  background-color: rgb(83, 100, 186);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+
+}
+
+.about-content h1, .mission-content h2, .explore-content h2,
+.why-visit-content h2, .team-content h2, .contact-content h2,
+.terms-content h2, .feedback-content h2 {
+  font-size: 36px;
+  color: #0d0d0d;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+.about-content p, .mission-content p, .explore-content p,
+.why-visit-content p, .contact-content ul,
+.terms-content p, .feedback-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: black;
+  text-align: justify;
+
+}
+
+.team-content ul{
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgb(0, 13, 255);
+  text-align: justify; 
+}
+
+.our-team ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+.designation {
+  margin-left: 10px;
+}

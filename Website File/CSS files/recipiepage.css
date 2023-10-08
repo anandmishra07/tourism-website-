@@ -1,0 +1,203 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px 0;
+  border-top: 2px solid white; 
+}
+
+.nav_links li {
+  margin-right: 20px;
+  position: relative; 
+}
+
+.nav_links li:last-child {
+  margin-right: 0;
+}
+
+.nav_links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s;
+  padding-bottom: 10px; 
+}
+
+.nav_links li a:hover {
+  color: #ff9900;
+}
+
+
+#wrapper {
+  margin-top: -100px;
+  padding: 200px;
+  padding-bottom: 0px;
+  font-family: "Poppins";
+}
+#imganddesc {
+  display: flex;
+  gap: 40px;
+}
+#headline {
+  width: 400px;
+  height: 700px;
+}
+#headline h1 {
+  font-family: "Poppins";
+  font-size: 5rem;
+  line-height: 4rem;
+}
+.headdesc {
+  font-size: 2rem;
+  margin: 0px;
+  padding: 10px;
+}
+.desc {
+  font-size: 1rem;
+  margin: 0px;
+  text-align: justify;
+}
+
+.rec1,
+.rec2,
+.rec3,
+.rec4,
+.rec5,
+.rec6 {
+  width: 400px;
+  height: 700px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.rec1 {
+  background-image: url("../images/recipiepage/Bamboo\ Shoot\ Curry.jpg");
+}
+.rec2 {
+  background-image: url("../images/recipiepage/Litti\ Chokha.jpg");
+}
+.rec3 {
+  background-image: url("../images/recipiepage/Thekua.jpg");
+}
+.rec4 {
+  background-image: url("../images/recipiepage/Chana\ Ghanta.jpg");
+}
+.rec5 {
+  background-image: url("../images/recipiepage/Dhuska\ Sabzi.jpg");
+}
+.rec6 {
+  background-image: url("../images/recipiepage/Sanai\ Ki\ Sabzi.jpg");
+}
+
+body {
+  margin: 0px;
+}
+
+
+.ingredndirect {
+  display: flex;
+  gap: 40px;
+}
+.Ingredients p {
+  text-align: justify;
+}
+.directions p {
+  text-align: justify;
+}
+.Ingredients h1 {
+  font-family: "Poppins";
+  font-size: 2rem;
+}
+.directions h1 {
+  font-family: "Poppins";
+  font-size: 2rem;
+}
+#msg {
+  width: 850px;
+  height: 200px;
+  border: none;
+  margin-top: 0px;
+}
+.comment {
+  font-size: 1.2rem;
+}
+input {
+  width: 100%;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  padding: 2px 30px;
+  font-family: "Poppins";
+}
+
+.namenmail {
+  display: flex;
+  justify-content: space-around;
+}
+.reviewncomment h1 {
+  margin-top: 50px;
+}
+.rate {
+  justify-content: space-around;
+}
+.reviewncomment h3 {
+  font-size: 1rem;
+  font-weight: 10px;
+  margin-left: 10px;
+  font-family: "Poppins";
+}
+.review {
+  border: 10px;
+  margin: auto;
+  width: 12.5%;
+  padding: 10px;
+}
+.button {
+  background-color: black;
+  border: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 12.5%;
+  margin: 0px 43%;
+}
+.quote {
+  text-align: center;
+  width: 100%;
+  font-family: "Fuzzy Bubbles";
+  font-size: 1.7rem;
+}
